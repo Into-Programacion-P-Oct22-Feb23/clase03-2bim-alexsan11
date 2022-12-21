@@ -32,7 +32,7 @@ public class Ejemplo061 {
                     suma = suma + valor;
                      cadena = String.format("%s\n%d",cadena, arreglo1[fila][col]);
                 }
-                 //cadena = String.format("%s, %d\n",cadena, arreglo1[fila][col]);
+                 //cadena = String.format("%s%d\n",cadena, arreglo1[fila][col]);
             }
         }
         System.out.printf("la suma de:%s\nes igual a: %d\n",cadena, suma);
